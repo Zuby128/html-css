@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+        }
+        table{
+            border-collapse: collapse; /*tek çizgiye düşürdü*/
+            width: 50%;
+        }
+        tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Workout Table</caption>
+        <tr>
+            <th>name</th>
+            <th>surname</th>
+        </tr>
+        <tr>
+            <td>ali</td>
+            <td>veli</td>
+        </tr>
+        <tr>
+            <td>hasan</td>
+            <td>hüseyin</td>
+        </tr>
+        <tr>
+            <td>ali</td>
+            <td>hüseyin</td>
+        </tr>
+        <tr>
+            <td>veli</td>
+            <td>hüseyin</td>
+        </tr>
+    </table>
+</body>
+</html>

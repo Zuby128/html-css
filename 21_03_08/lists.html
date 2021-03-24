@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ol{
+            /* list-style-type: ":) "; */
+            list-style:square outside url("xxxx.jpg");
+        }
+        ul{
+            list-style-type: "\1F44D"; /*thumb emo*/
+            color: yellow;
+        }
+        ul li{
+            list-style-position: inside; /*böyle yapıca daha iyi 'outside' yapınca daha soldan başlıyor*/
+        }
+        ul li:before{
+            content: "\2764";
+            color: blue;
+        }
+        li{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ol>
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ul>
+</body>
+</html>

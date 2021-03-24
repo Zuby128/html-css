@@ -1,0 +1,18 @@
+h1{
+    color: red;
+}
+h2{
+    color: rgb(255, 0, 0);
+}
+h3{
+    color: hsl(60, 100%, 50%);
+}
+h4{
+    color: #124458;
+}
+h5{
+    color: rgba(255,0,0,0.5); /*sonuncu değer saydamlık 0-1 arası*/
+}
+h6{
+    color: hsla(240, 80%, 50%, 0.3); /*color, yoğunluk, parlaklık, saydamlık-0/1arası- */
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>float</title>
+    <style>
+        img{
+            width: 200px;
+            float: left;
+            margin: 7px;
+        }
+        p{
+            border: 1px solid;
+            overflow: auto;
+            clear: left; /*clear left side cause of float element*/
+        }
+        div{
+            display: inline-block;
+            padding: 15px;
+        }
+        .one{
+            background: green;
+        }
+        .two{
+            background: blue;
+        }
+        .three{
+            background: red;
+        }
+        .container{
+            border: 1px solid;
+            text-align: center;
+        }
+        header{
+            margin: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <p>
+      <img src="https://picsum.photos/id/211/600/400" alt="pic" />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+      inventore fugit! Veritatis dolores reiciendis dolorum molestiae,
+      accusantium tempora praesentium totam officiis molestias eius iure
+      voluptatem neque tempore quam eos dignissimos.
+    </p>
+    <hr>
+    <div class="one">div1</div>
+    <div class="two">div2</div>
+    <div class="three">div3</div>
+    <hr>
+  </body>
+</html>

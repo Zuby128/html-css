@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="result.html" method="GET">
+        <div>
+            <label for="lessons">Choose a lesson</label>
+            <br>
+            <select name="lessons" id="lesson" required> <!-- multiple verince çoklu seçim yapılabiliyor -->
+                <optgroup label="hard">
+                    <option value="math">math</option>
+                    <option value="java">java</option>
+                    <option value="python">python</option>
+                </optgroup>
+                <optgroup label="easy">
+                    <option value="html">html</option>
+                    <option value="c++">c++</option>
+                    <option value="css">css</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="message">Enter comment</label>
+            <br>
+            <textarea name="message" style="resize: none;" id="mess" cols="10" rows="3">inner text buraya</textarea>
+        </div>
+        <div>
+            <label for="browsers">Browsers:</label>
+            <input type="text" list="browsers" name="options" id="brows">
+            <datalist id="browsers"> <!-- input/list ve datalist/id aynı olması lazım -->
+                <option value="firefox">firefox</option>
+                <option value="opera">opera</option>
+                <option value="chrome">chrome</option>
+                <option value="explorer">explorer</option>
+            </datalist>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="firstname">Name:</label>
+                <br>
+                <input type="text" name="nam" id="firstname" value="me" readonly>
+                <br>
+                <label for="surname">Surname:</label>
+                <br>
+                <input type="text" name="sur" id="surname" placeholder="you" disabled>
+            </fieldset>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

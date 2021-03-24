@@ -1,0 +1,48 @@
+/*em(body)/rem(diğer tagler)[=16px] kullanmak gerek, px kullananı döverler*/
+p{
+    border: 1px solid red;
+    /* padding: 5px 10px 10px 10px; */
+    /* padding: 10px 15px 10px; */
+    /* padding: 10%; */ /*responsive*/
+    padding: inherit;
+    text-align: center;
+}
+div{
+    border: 1px solid blue;
+    background-color: yellow;
+    padding: 10px;
+    text-transform: capitalize;
+}
+h1{
+    box-sizing: border-box; /*dışarıya doğru değil içe doğru büyütür box çizgisi*/
+    text-indent: 50px; /*satır başından içeri ittiriyor*/
+    unicode-bidi: bidi-override; /*yazı sağdan başladı arapça vb diller için önemli*/
+    text-shadow: 1px -5px 6px cyan; /*sağa aşağı fluluk renk*/
+    font-size: 5vw;
+}
+h3{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-style: oblique 30; /*kendin yazı eğikliğini belirleyebilirsin*/
+}
+#link1{ /*bunların sırası: link visited hover active*/
+    color: #000;
+    background-color: cyan;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+}
+#link1:visited{
+    background-color: green;
+    cursor: grab;
+}
+#link1:hover{
+    background-color: red;
+    cursor: grab;
+}
+#link1:active{
+    background-color: blue;
+    cursor:help;
+}
+

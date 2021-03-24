@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>overflow</title>
+    <style>
+        .box{
+            border: 1px solid black;
+            height: 55px;
+            width: 300px;
+            margin-bottom: 70px;
+        }
+        #first{
+            overflow: visible;
+        }
+        #second{
+            overflow: hidden;
+        }
+        #third{
+            overflow: scroll;
+        }
+        #fourth{
+            overflow: auto;
+        }
+        #fifth{
+            overflow-x: scroll;
+        }
+    </style>
+  </head>
+  <body>
+      <!-- div.box*5>lorem -->
+    <div class="box" id="first">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo mollitia
+      soluta temporibus, vitae praesentium dignissimos tempora officiis hic
+      ducimus, dolores a voluptate molestiae sunt, est reprehenderit voluptates
+      quasi dicta asperiores.
+    </div>
+    <div class="box" id="second">
+      Eos amet numquam harum atque esse corrupti neque ipsum? Adipisci dolorum
+      quibusdam rem incidunt praesentium perspiciatis provident dolores odit
+      animi cum! Id totam ipsum officia dolorum a. Doloribus, iusto debitis.
+    </div>
+    <div class="box" id="third">
+      Similique dolorum optio quisquam placeat omnis ipsa, consectetur ex
+      exercitationem enim fugit tenetur consequatur ullam, eligendi hic
+      laudantium temporibus officia nulla ab! Assumenda excepturi eveniet soluta
+      odit non? Omnis, eaque.
+    </div>
+    <div class="box" id="fourth">
+      Dolorum quia officia aspernatur ipsa distinctio quos dolor. Minima
+      reprehenderit harum cumque. Officia, eos sint nihil quod pariatur quos
+      voluptatibus natus porro fugit similique quisquam facere, exercitationem
+      explicabo cumque. Iure?
+    </div>
+    <div class="box" id="fifth">
+      Ab dicta quod adipisci modi tempora libero aliquam dolor velit officia
+      inventore eius deleniti aperiam pariatur minus molestiae, exercitationem
+      dolores! Exercitationem nobis minima, quos placeat dolorum illum quia
+      libero soluta?
+    </div>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+#part1{
+    border-style: groove dotted; /*aynı anda iki değer kullandı*/
+    border-width: 8px 3px;
+    border-color: aqua #444;
+    border-radius: 10px;
+    width: 50%;
+    margin: inherit;
+    /* margin: auto; */
+    /* border: 5px dotted #444; */
+}
+
+#part2{
+    border-style: groove dotted; /*aynı anda iki değer kullandı*/
+    border-width: 8px 3px;
+    border-color: aqua #444;
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+div{
+    margin: 10%;
+    border: 1px solid black;
+}

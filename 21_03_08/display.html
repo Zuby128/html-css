@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+    <style>
+        span{
+            display: block;
+        }
+        h1, #ddd{
+            display: inline;
+        }
+        h1{
+            display: none; /*görünmez yapıyor*/
+        }
+        #ddd{
+            visibility: hidden; /*akışta yerini korur ama görünmez yapar*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Display Property</h1>
+    <p id="ddd">welcome to my home</p>
+    <p>welceome To <span>my home</span></p>
+</body>
+</html>
